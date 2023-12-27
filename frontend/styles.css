@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  text-align: center;
+}
+
+.button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.navbar-title {
+  font-size: 1.5em;
+}
+
+.add-toggle-button {
+  background-color: #fff;
+  color: #000;
+}
+
+.add-fields {
+  margin: 30px 0px;
+}
+
+.add-submit-button {
+  background-color: #333;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.post-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+}
+
+.post-div {
+  max-width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-div p {
+  text-align: left;
+  white-space: wrap;
+}
+
+.post-avatar-div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 15px 10px;
+}
+
+.post-avatar-div img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; 
+  overflow: hidden;
+}
+
+.post-caption-div{
+  padding: 0px 10px;
+}
+
+.post-caption-div p {
+  white-space: normal;
+}
+
+.post-button-div {
+  margin: 5px 0px 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-button-div button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.img {
+  width: 300px;
+  height: 225px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div id="root" class="root">
+      <div class="navbar">
+        <div class="navbar-title">Instagram</div>
+        <button id="addToggleButton" class="button add-toggle-button">추가</button>
+      </div>
+
+      <div id="addFields" style="display: none;" class="add-fields">
+        <input type="file" id="addImg" accept="image/*">
+        <input type="text" id="addImgCaption">
+        <button id="addSubmitButton" class="button add-submit-button">추가</button>
+      </div>
+      
+      <div id="postContainer" class="post-container"></div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>
